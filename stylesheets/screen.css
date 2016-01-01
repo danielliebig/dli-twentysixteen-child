@@ -1,0 +1,90 @@
+/* Init custom fonts. Replace with your existing local fonts. */
+@font-face {
+  font-family: 'CustomFont';
+  src: url("../fonts/custom-font-regular.eot");
+  src: url("../fonts/custom-font-regular.eot?") format("eot"), url("../fonts/custom-font-regular.ttf") format("truetype"), url("../fonts/custom-font-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CustomFont';
+  src: url("../fonts/custom-font-bold.eot");
+  src: url("../fonts/custom-font-bold.eot?") format("eot"), url("../fonts/custom-font-bold.ttf") format("truetype"), url("../fonts/custom-font-bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CustomFontMedium';
+  src: url("../fonts/custom-font-medium.eot");
+  src: url("../fonts/custom-font-medium.eot?") format("eot"), url("../fonts/custom-font-medium.ttf") format("truetype"), url("../fonts/custom-font-medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 1, ../sass/Partials/_Header.scss */
+#header {
+  position: relative;
+}
+
+/* line 1, ../sass/Partials/_Logo.scss */
+#logo {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+}
+
+/* line 1, ../sass/Partials/_Navigation.scss */
+#header {
+  background: #000;
+}
+
+/* line 1, ../sass/Partials/_Page.scss */
+body {
+  background-color: #fff;
+}
+/* line 3, ../sass/Partials/_Page.scss */
+body #container {
+  max-width: 1920px;
+  padding: 0;
+}
+/* line 6, ../sass/Partials/_Page.scss */
+body #container .skip-container {
+  display: none;
+}
+
+/* line 1, ../sass/Partials/_Grid.scss */
+.first {
+  margin-left: 0 !important;
+}
+
+/* line 5, ../sass/Partials/_Grid.scss */
+.last {
+  margin-right: 0 !important;
+}
+
+/* line 1, ../sass/Partials/_Content.scss */
+#wrapper {
+  margin: 0 auto;
+  padding: 0 0 0 3%;
+  overflow: hidden;
+  border: none;
+  border-radius: 0;
+}
+/* line 7, ../sass/Partials/_Content.scss */
+#wrapper #content-full {
+  margin-top: 0;
+}
+
+/* line 4, ../sass/Partials/_Widgets.scss */
+.wrap-text_image_50_50 .col-inner {
+  padding: 0;
+}
+/* line 6, ../sass/Partials/_Widgets.scss */
+.wrap-text_image_50_50 .col-inner img {
+  margin: 0;
+  margin-bottom: 1%;
+}
+/* line 10, ../sass/Partials/_Widgets.scss */
+.wrap-text_image_50_50 .col-inner h3 {
+  font-size: 38px;
+  line-height: 45px;
+}
