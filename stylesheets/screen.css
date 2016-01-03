@@ -1,3 +1,34 @@
+/* line 4, ../sass/Partials/_Typography.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 9, ../sass/Partials/_Typography.scss */
+i,
+em {
+  font-style: italic;
+}
+
+/* line 17, ../sass/Partials/_Typography.scss */
+h1 {
+  font-size: 38px;
+  line-height: 45px;
+}
+
+/* line 22, ../sass/Partials/_Typography.scss */
+h2,
+h3 {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+/* line 28, ../sass/Partials/_Typography.scss */
+h4 {
+  font-size: 14px;
+  line-height: 22px;
+}
+
 /* Init custom fonts. Replace with your existing local fonts. */
 @font-face {
   font-family: 'CustomFont';
@@ -32,25 +63,6 @@
   left: 3%;
 }
 
-/* line 1, ../sass/Partials/_Navigation.scss */
-#header {
-  background: #000;
-}
-
-/* line 1, ../sass/Partials/_Page.scss */
-body {
-  background-color: #fff;
-}
-/* line 3, ../sass/Partials/_Page.scss */
-body #container {
-  max-width: 1920px;
-  padding: 0;
-}
-/* line 6, ../sass/Partials/_Page.scss */
-body #container .skip-container {
-  display: none;
-}
-
 /* line 1, ../sass/Partials/_Grid.scss */
 .first {
   margin-left: 0 !important;
@@ -61,17 +73,14 @@ body #container .skip-container {
   margin-right: 0 !important;
 }
 
-/* line 1, ../sass/Partials/_Content.scss */
-#wrapper {
-  margin: 0 auto;
-  padding: 0 0 0 3%;
-  overflow: hidden;
-  border: none;
-  border-radius: 0;
+/* line 2, ../sass/Partials/_Content.scss */
+#content #primary {
+  float: right;
+  margin-right: 0;
 }
-/* line 7, ../sass/Partials/_Content.scss */
-#wrapper #content-full {
-  margin-top: 0;
+/* line 6, ../sass/Partials/_Content.scss */
+#content #secondary {
+  margin-left: 0;
 }
 
 /* line 4, ../sass/Partials/_Widgets.scss */
@@ -88,3 +97,19 @@ body #container .skip-container {
   font-size: 38px;
   line-height: 45px;
 }
+
+/**
+ * 14.1 - >= 710px
+ */
+/**
+ * 14.2 - >= 783px
+ */
+/**
+ * 14.3 - >= 910px
+ */
+/**
+ * 14.4 - >= 985px
+ */
+/**
+ * 14.5 - >= 1200px
+ */
