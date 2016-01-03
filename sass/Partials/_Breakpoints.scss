@@ -22,7 +22,11 @@
 
 @media screen and (min-width: 56.875em) {
 	body {
-
+		#content {
+			#primary {
+				float: right;
+			}
+		}
 	}
 }
 

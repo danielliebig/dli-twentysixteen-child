@@ -1,10 +1,9 @@
-#wrapper {
-    margin: 0 auto;
-    padding: 0 0 0 3%;
-    overflow: hidden;
-    border: none;
-    border-radius: 0;
-    #content-full {
-        margin-top: 0;
-    }
+#content {
+	#primary {
+		float: none;
+		margin-right: 0;
+	}
+	#secondary {
+		margin-left: 0;
+	}
 }
