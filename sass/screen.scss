@@ -17,4 +17,7 @@
 // The vendor directory is for WordPress plugins or vendor styles or other custom elements.
 @import "Vendor/ContactForm7";
 @import "Vendor/SliderCustom";
-@import "Vendor/ContactButton"
+@import "Vendor/ContactButton";
+
+// Breakpoints
+@import "Partials/Breakpoints";
