@@ -51,16 +51,20 @@ h4 {
   font-weight: normal;
   font-style: normal;
 }
-/* line 1, ../sass/Partials/_Header.scss */
-#header {
-  position: relative;
-}
-
 /* line 1, ../sass/Partials/_Logo.scss */
 #logo {
   position: absolute;
   top: 3%;
   left: 3%;
+}
+
+/* line 1, ../sass/Partials/_Page.scss */
+body {
+  background-color: #fff;
+}
+/* line 3, ../sass/Partials/_Page.scss */
+body #page {
+  margin: 0;
 }
 
 /* line 1, ../sass/Partials/_Grid.scss */
@@ -101,6 +105,12 @@ h4 {
 /**
  * 14.1 - >= 710px
  */
+@media screen and (min-width: 44.375em) {
+  /* line 8, ../sass/Partials/_Breakpoints.scss */
+  body header#masthead {
+    padding: 0;
+  }
+}
 /**
  * 14.2 - >= 783px
  */
@@ -108,7 +118,7 @@ h4 {
  * 14.3 - >= 910px
  */
 @media screen and (min-width: 56.875em) {
-  /* line 26, ../sass/Partials/_Breakpoints.scss */
+  /* line 31, ../sass/Partials/_Breakpoints.scss */
   body #content #primary {
     float: right;
   }
